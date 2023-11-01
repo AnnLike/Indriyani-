@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="style.css" />
+	<title>Indriyani So Asix</title>
+</head>
+
+<body>
+	<div class="card bg-love">
+		<img id="thumb" src="https://drive.google.com/uc?export=download&id=1fIK1TjrmMrgrKQVRmkP_BQNTApSgIpiA" alt="thumb" class="img-thumb" />
+		<h1 class="text-center">hellow nyet-!</h1>
+		<h2 class="text-center">Makan Nyet , Jaga kondisi , Tetap Semangat -! , Aku ada di belakang kalo ada apa apa blg yawww ,, guel ada kalo kamu butuh , Jor teuing rek ngmng bullshit ge ajg nu penting mah ke di bayar aksi ,( [29/10 17.34] Nyi Roro: To capek )  Jika Ada Chat Seperti itu lagi mohon dihapus dan ganti dengan permintaan pertolongan karena aku akan selalu ada ,, WANJAYYYYYYY</h2>
+		<div class="card-footer">
+			<div class="btn mau" onclick="mau()">Otewe</div>
+			<div class="btn gak" onclick="gakmau(this)" onmouseover="gakmau(this)">
+				bung
+			</div>
+		</div>
+		<div class="info text-center mt-16" id="info"></div>
+		<div class="water-mark text-center">
+			<a href="https://wa.me/6289513512987">Click Mee-!!</a>
+		</div>
+	</div>
+	<div class="text-center mt-16" id="musicbox">
+		<audio id="music" src="https://drive.google.com/uc?export=download&id=1RDUA0DT19i6Q2Tfx0gvAMiRba8ENlsM3" controls></audio>
+	</div>
+</body>
+<script>
+	var _info = document.getElementById("info");
+	var _music = document.getElementById("music");
+
+	function gakmau(element) {
+		element.style.position = "absolute";
+		element.style.left = `${Math.floor(Math.random() * 90)}%`;
+		element.style.top = `${Math.floor(Math.random() * 90)}%`;
+		_info.innerHTML = "Kudu Hayang 🙄";
+	}
+
+	function mau() {
+		if (_music.paused) _music.play();
+		_info.innerHTML = "Terimakasih-!!. Yang banyakkk ommm";
+	}
+</script>
+
+</html>
